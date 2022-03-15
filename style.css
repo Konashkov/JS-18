@@ -1,0 +1,46 @@
+.counter{
+    font-size: 80px;
+}
+button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.plus{
+    background-color: green; 
+    position: relative;
+}
+.minus{
+    background-color: darkred; 
+}
+.reset{
+    background-color: darkgoldenrod;
+}
+/* .plus::before{
+    content:'';
+    display: block;
+    background-image: src('./img/add.png');
+    background-size:contain;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+}
+.minus::before{
+    content:'';
+    display: block;
+    background-image: url('./img/minus.png');
+    background-size:contain;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+} */
+button:disabled{
+    background-color: grey;
+}
+.consoleText {
+    font-family: 'Roboto', sans-serif;
+    
+  }
