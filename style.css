@@ -1,5 +1,6 @@
 .counter{
     font-size: 80px;
+    font-family: 'Roboto', sans-serif;
 }
 button{
     border: none;
@@ -19,6 +20,12 @@ button{
 .reset{
     background-color: darkgoldenrod;
 }
+.reset:disabled{
+    background-color: rgb(180, 170, 143);
+}
+button:disabled{
+    background-color: rgb(134, 98, 98);
+}
 /* .plus::before{
     content:'';
     display: block;
@@ -37,10 +44,3 @@ button{
     width: 25px;
     position: absolute;
 } */
-button:disabled{
-    background-color: grey;
-}
-.consoleText {
-    font-family: 'Roboto', sans-serif;
-    
-  }

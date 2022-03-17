@@ -8,17 +8,20 @@ console.dir(counter)
 function counterPlus(){
         k++
         minus.disabled = false
+        reset.disabled = false
         counter.innerHTML = k
 }
 function counterMinus(){
         k--
         if(k<=0) k = 0
         minus.disabled = !Boolean(k)
+        reset.disabled = !Boolean(k)
         counter.innerHTML = k
 }
 function counterReset(){
         k = 0 
         minus.disabled = true
+        reset.disabled = true
         counter.innerHTML = k
 }
 plus.addEventListener('click',counterPlus)
